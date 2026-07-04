@@ -5,6 +5,11 @@
   var ZH = window.__LANG === 'zh';
   // path prefix for static exports (GitHub Pages demo); empty on the live server
   var P = window.__PATH_PREFIX || '';
+  if (!P) {
+    var scriptSrc = document.currentScript ? document.currentScript.getAttribute('src') || '' : '';
+    var prefixMatch = scriptSrc.match(/^(.*)\/js\/store\.js/);
+    if (prefixMatch) P = prefixMatch[1];
+  }
 
   // client-side i18n (mirrors server-side lang cookie)
   var MSG = {
