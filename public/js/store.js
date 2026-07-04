@@ -37,6 +37,10 @@
   function $all(s, el) { return Array.prototype.slice.call((el || document).querySelectorAll(s)); }
   function money(c) { return '$' + (c / 100).toFixed(2); }
   function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function asset(src) {
+    if (!src || /^https?:|^data:|^\./.test(src)) return src || '';
+    return src.charAt(0) === '/' ? P + src : src;
+  }
 
   var toastEl = $('#toast'), toastTimer;
   function toast(msg) {
@@ -215,7 +219,7 @@
     }
     drawerItems.innerHTML = lines.map(function (line, index) {
       return '<div class="drawer-item" style="animation-delay:' + (index * 45) + 'ms">' +
-        '<a href="' + P + '/products/' + esc(line.slug) + '"><img src="' + esc(line.image) + '" alt=""></a>' +
+        '<a href="' + P + '/products/' + esc(line.slug) + '"><img src="' + esc(asset(line.image)) + '" alt=""></a>' +
         '<div><h3>' + esc(line.name) + '</h3><div class="drawer-item-price">' + money(line.price) + MSG.each + '</div>' +
         '<div class="drawer-stepper"><button data-dqty="-1" data-id="' + esc(line.productId) + '" aria-label="Decrease quantity">-</button><span>' + line.qty + '</span><button data-dqty="1" data-id="' + esc(line.productId) + '" aria-label="Increase quantity">+</button></div></div>' +
         '<button class="drawer-remove" data-dremove="' + esc(line.productId) + '" aria-label="' + MSG.remove + '">×</button>' +
@@ -383,7 +387,7 @@
     var pct = Math.min(100, Math.round(subtotal / free * 100));
     var html = lines.map(function (l) {
       return '<div class="cart-item">' +
-        '<a href="' + P + '/products/' + esc(l.p.slug) + '"><img src="' + esc(l.p.image) + '" alt=""></a>' +
+        '<a href="' + P + '/products/' + esc(l.p.slug) + '"><img src="' + esc(asset(l.p.image)) + '" alt=""></a>' +
         '<div><div class="cart-item-name">' + esc(l.p.name) + '</div><div class="cart-item-price">' + money(l.p.price) + MSG.each + '</div></div>' +
         '<div class="cart-item-right">' +
         '<div class="qty-picker"><button data-cqty="-1" data-id="' + esc(l.p.id) + '">−</button><input value="' + l.qty + '" readonly><button data-cqty="1" data-id="' + esc(l.p.id) + '">+</button></div>' +
@@ -443,7 +447,7 @@
     }
     function renderSummary() {
       $('#summaryItems').innerHTML = lines.map(function (l) {
-        return '<div class="sum-item"><img src="' + esc(l.p.image) + '" alt=""><span>' + esc(l.p.name) + ' × ' + l.qty + '</span><b>' + money(l.p.price * l.qty) + '</b></div>';
+        return '<div class="sum-item"><img src="' + esc(asset(l.p.image)) + '" alt=""><span>' + esc(l.p.name) + ' × ' + l.qty + '</span><b>' + money(l.p.price * l.qty) + '</b></div>';
       }).join('');
       var t = calc();
       $('#sumLines').innerHTML =
