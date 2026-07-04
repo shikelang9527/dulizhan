@@ -41,7 +41,7 @@ function login({ firstRun, error }) {
     <label>管理员密码 <input type="password" name="password" required autofocus></label>
     <button class="btn btn-primary btn-block" type="submit">登录</button>`;
   return `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>管理后台登录</title><link rel="stylesheet" href="/css/admin.css?v=20260704-dashboard-actions"><link rel="icon" href="/img/favicon.svg"></head>
+<title>管理后台登录</title><link rel="stylesheet" href="/css/admin.css?v=20260704-subscriber-panel-2"><link rel="icon" href="/img/favicon.svg"></head>
 <body class="login-body"><form class="login-card" method="POST" action="/admin/login">
 <div class="login-logo">🐾 喵喵宠物独立站</div><h1>管理后台</h1>
 ${error ? `<p class="form-error">${esc(error)}</p>` : ''}
@@ -465,12 +465,41 @@ function reviews() {
 // ---------- subscribers ----------
 function subscribers() {
   const list = db.load('subscribers', []);
-  const rows = list.map(s => `<tr><td>${esc(s.email)}</td><td>${fmtDate(s.createdAt, true)}</td>
-    <td>${s.sent2 ? '✓' : '—'} / ${s.sent3 ? '✓' : '—'}</td></tr>`).join('');
+  const sent2 = list.filter(s => s.sent2).length;
+  const sent3 = list.filter(s => s.sent3).length;
+  const active = list.filter(s => !s.unsubscribed).length;
+  const rows = list.map(s => {
+    const sentCount = (s.sent2 ? 1 : 0) + (s.sent3 ? 1 : 0);
+    const next = s.sent3 ? '欢迎序列已完成' : (s.sent2 ? '等待第 3 封' : '等待第 2 封');
+    const tone = s.sent3 ? 'st-green' : (s.sent2 ? 'st-blue' : 'st-orange');
+    return `<tr>
+      <td>
+        <b class="subscriber-email">${esc(s.email)}</b>
+        <span class="subscriber-note">${s.unsubscribed ? '已退订' : '正常订阅'}</span>
+      </td>
+      <td><span class="time-strong">${fmtDate(s.createdAt, true)}</span></td>
+      <td>
+        <span class="st ${tone}">${sentCount}/2 已发</span>
+        <span class="subscriber-note">${next}</span>
+      </td>
+    </tr>`;
+  }).join('');
   const content = `
-<section class="panel">
-  <p class="muted">欢迎邮件第 1 封在订阅时立即发送；第 2/3 封由自动化在第 2/4 天发送（可在邮件中心调整）。</p>
-  ${list.length ? `<table class="tbl"><tr><th>邮箱</th><th>订阅时间</th><th>欢迎邮件 2/3 已发</th></tr>${rows}</table>` : '<p class="muted">暂无订阅者。前台页脚订阅框可获取。</p>'}
+<section class="panel subscriber-panel">
+  <div class="panel-head">
+    <div>
+      <h2>订阅增长</h2>
+      <p class="muted">欢迎邮件第 1 封在订阅时立即发送；第 2/3 封由自动化在第 2/4 天发送，可在邮件中心调整。</p>
+    </div>
+    <a class="btn btn-ghost btn-sm" href="/admin/emails">邮件中心</a>
+  </div>
+  <div class="subscriber-stats">
+    <div><span>订阅总数</span><b>${list.length}</b></div>
+    <div><span>有效订阅</span><b>${active}</b></div>
+    <div><span>第 2 封已发</span><b>${sent2}</b></div>
+    <div><span>第 3 封已发</span><b>${sent3}</b></div>
+  </div>
+  ${list.length ? `<div class="table-wrap"><table class="tbl subscriber-table"><tr><th>邮箱</th><th>订阅时间</th><th>欢迎邮件状态</th></tr>${rows}</table></div>` : '<p class="empty-note">暂无订阅者。前台页脚订阅框可获取。</p>'}
 </section>`;
   return layout({ title: '订阅者', active: 'subscribers', content });
 }
