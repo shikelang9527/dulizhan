@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FFFFFF"/>
+
+  <g opacity=".92">
+    <g>
+      <path d="M140,330 L240,270 L240,390 L140,450 Z" fill="#F9B384"/>
+      <ellipse cx="140" cy="390" rx="34" ry="62" fill="#3D3129" opacity=".85"/>
+      <ellipse cx="140" cy="390" rx="34" ry="62" fill="none" stroke="#E8734A" stroke-width="9"/>
+      <path d="M460,330 L360,270 L360,390 L460,450 Z" fill="#7FB69D"/>
+      <ellipse cx="460" cy="390" rx="34" ry="62" fill="#3D3129" opacity=".85"/>
+      <ellipse cx="460" cy="390" rx="34" ry="62" fill="none" stroke="#7FB69D" stroke-width="9"/>
+      <path d="M240,270 L300,180 L360,270 L360,390 L300,440 L240,390 Z" fill="#E8734A"/>
+      <ellipse cx="300" cy="205" rx="52" ry="40" fill="#3D3129" opacity=".85"/>
+      <ellipse cx="300" cy="205" rx="52" ry="40" fill="none" stroke="#F9B384" stroke-width="9"/>
+      <circle cx="300" cy="330" r="17" fill="#F5E6D3"/>
+      <line x1="240" y1="300" x2="240" y2="380" stroke="#3D3129" stroke-width="3" opacity=".2"/>
+      <line x1="360" y1="300" x2="360" y2="380" stroke="#3D3129" stroke-width="3" opacity=".2"/>
+    </g></g>
+  <line x1="110" y1="520" x2="490" y2="520" stroke="#3D3129" stroke-width="3"/>
+  <line x1="110" y1="508" x2="110" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <line x1="490" y1="508" x2="490" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <rect x="180" y="494" width="240" height="52" rx="26" fill="#3D3129"/>
+  <text x="300" y="521" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold" fill="#FFFFFF">Ø 25 cm / 9.8 in</text>
+  <text x="300" y="76" text-anchor="middle" font-family="Arial" font-size="19" fill="#8C7D6F">tunnel diameter</text>
+</svg>

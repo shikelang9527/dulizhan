@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout — MewMew</title>
+<meta name="description" content="Checkout">
+<link rel="icon" href="/mewmew-store/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/mewmew-store/css/store.css">
+<script>window.__LANG="en";</script>
+
+
+</head>
+<body>
+<div class="announce">Free US shipping on orders over $35 · 30-day returns · ⚠ Static demo</div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="logo" href="/mewmew-store/">🐾 <span>MewMew</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="/mewmew-store/">Home</a>
+      <a href="/mewmew-store/shop">Shop</a>
+      <a href="/mewmew-store/faq">FAQ</a>
+      <a href="/mewmew-store/track-order">Track Order</a>
+      <a href="/mewmew-store/contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="lang-switch" href="/mewmew-store/zh/checkout/" title="切换到中文">中文</a>
+      <a class="cart-btn cart-drawer-toggle" href="/mewmew-store/cart" aria-label="Cart">
+        <span class="cart-icon" aria-hidden="true">🛒</span><span class="cart-count" id="cartCount">0</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="wrap section narrow">
+  <h1 class="page-title">Checkout</h1>
+  <div class="checkout-grid">
+    <form id="checkoutForm" class="checkout-form" autocomplete="on">
+      <h2>Contact</h2>
+      <label>Email <input type="email" name="email" required placeholder="you@email.com"></label>
+      <h2>Shipping address</h2>
+      
+      <div class="form-row">
+        <label>First name <input name="firstName" required></label>
+        <label>Last name <input name="lastName" required></label>
+      </div>
+      <label>Address <input name="address1" required placeholder="Street and number"></label>
+      <label>Apartment, suite (optional) <input name="address2"></label>
+      <div class="form-row form-row-3">
+        <label>City <input name="city" required></label>
+        <label>State <select name="state" required><option value="">—</option><option value="AL">AL</option><option value="AK">AK</option><option value="AZ">AZ</option><option value="AR">AR</option><option value="CA">CA</option><option value="CO">CO</option><option value="CT">CT</option><option value="DE">DE</option><option value="FL">FL</option><option value="GA">GA</option><option value="HI">HI</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="IA">IA</option><option value="KS">KS</option><option value="KY">KY</option><option value="LA">LA</option><option value="ME">ME</option><option value="MD">MD</option><option value="MA">MA</option><option value="MI">MI</option><option value="MN">MN</option><option value="MS">MS</option><option value="MO">MO</option><option value="MT">MT</option><option value="NE">NE</option><option value="NV">NV</option><option value="NH">NH</option><option value="NJ">NJ</option><option value="NM">NM</option><option value="NY">NY</option><option value="NC">NC</option><option value="ND">ND</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="RI">RI</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VT">VT</option><option value="VA">VA</option><option value="WA">WA</option><option value="WV">WV</option><option value="WI">WI</option><option value="WY">WY</option><option value="DC">DC</option></select></label>
+        <label>ZIP <input name="zip" required pattern="[0-9]{5}(-[0-9]{4})?"></label>
+      </div>
+      <label>Country <select name="country"><option>United States</option></select></label>
+      <label class="check-line"><input type="checkbox" id="billingSame" checked> Billing address same as shipping</label>
+      <div id="billingBlock" hidden>
+        <h2>Billing address</h2>
+        <label>Address <input name="billAddress1"></label>
+        <div class="form-row form-row-3">
+          <label>City <input name="billCity"></label>
+          <label>State <select name="billState"><option value="">—</option><option value="AL">AL</option><option value="AK">AK</option><option value="AZ">AZ</option><option value="AR">AR</option><option value="CA">CA</option><option value="CO">CO</option><option value="CT">CT</option><option value="DE">DE</option><option value="FL">FL</option><option value="GA">GA</option><option value="HI">HI</option><option value="ID">ID</option><option value="IL">IL</option><option value="IN">IN</option><option value="IA">IA</option><option value="KS">KS</option><option value="KY">KY</option><option value="LA">LA</option><option value="ME">ME</option><option value="MD">MD</option><option value="MA">MA</option><option value="MI">MI</option><option value="MN">MN</option><option value="MS">MS</option><option value="MO">MO</option><option value="MT">MT</option><option value="NE">NE</option><option value="NV">NV</option><option value="NH">NH</option><option value="NJ">NJ</option><option value="NM">NM</option><option value="NY">NY</option><option value="NC">NC</option><option value="ND">ND</option><option value="OH">OH</option><option value="OK">OK</option><option value="OR">OR</option><option value="PA">PA</option><option value="RI">RI</option><option value="SC">SC</option><option value="SD">SD</option><option value="TN">TN</option><option value="TX">TX</option><option value="UT">UT</option><option value="VT">VT</option><option value="VA">VA</option><option value="WA">WA</option><option value="WV">WV</option><option value="WI">WI</option><option value="WY">WY</option><option value="DC">DC</option></select></label>
+          <label>ZIP <input name="billZip"></label>
+        </div>
+      </div>
+      <h2>Payment</h2>
+      <div class="pay-method">🧪 Test payment (no real charge — store is in test mode)</div>
+      <label class="check-line muted"><input type="checkbox" id="simulateFail"> Simulate a failed payment (for store testing)</label>
+      <button class="btn btn-primary btn-lg btn-block" id="placeOrder" type="submit">Place order</button>
+      <p class="footnote">By placing your order you agree to our <a href="/mewmew-store/pages/terms-of-service">Terms</a>, <a href="/mewmew-store/pages/shipping-policy">Shipping Policy</a> and <a href="/mewmew-store/pages/return-refund-policy">Return Policy</a>. US orders under $800 de minimis typically incur no import charges; any duties or taxes, if assessed, are the buyer’s responsibility.</p>
+    </form>
+    <aside class="checkout-summary" id="summaryRoot" data-free="3500" data-rate="495">
+      <h2>Order summary</h2>
+      <div id="summaryItems"></div>
+      <div class="discount-row">
+        <input id="discountInput" placeholder="Discount code">
+        <button class="btn btn-ghost" id="applyDiscount" type="button">Apply</button>
+      </div>
+      <p class="sub-msg" id="discountMsg"></p>
+      <div class="sum-lines" id="sumLines"></div>
+    </aside>
+  </div>
+</section>
+<script>window.__CATALOG={"p_featherwand":{"id":"p_featherwand","name":"Whisker Chase Feather Wand","price":1499,"image":"/img/products/whisker-chase-feather-wand-1.svg","slug":"whisker-chase-feather-wand","stock":119},"p_cattunnel":{"id":"p_cattunnel","name":"Burrow Trio 3-Way Cat Tunnel","price":2499,"image":"/img/products/burrow-trio-cat-tunnel-1.svg","slug":"burrow-trio-cat-tunnel","stock":80},"p_snufflemat":{"id":"p_snufflemat","name":"SniffQuest Snuffle Mat","price":2299,"image":"/img/products/sniffquest-snuffle-mat-1.svg","slug":"sniffquest-snuffle-mat","stock":89},"p_cornerbrush":{"id":"p_cornerbrush","name":"CornerComb Self-Grooming Corner Brush","price":1299,"image":"/img/products/cornercomb-self-grooming-brush-1.svg","slug":"cornercomb-self-grooming-brush","stock":150},"p_hairroller":{"id":"p_hairroller","name":"FurAway Reusable Pet Hair Roller","price":1699,"image":"/img/products/furaway-reusable-hair-roller-1.svg","slug":"furaway-reusable-hair-roller","stock":140},"p_deshedbrush":{"id":"p_deshedbrush","name":"UnderCoat Pro De-shedding Brush","price":1899,"image":"/img/products/undercoat-pro-deshedding-brush-1.svg","slug":"undercoat-pro-deshedding-brush","stock":110},"p_donutbed":{"id":"p_donutbed","name":"CloudNine Donut Cuddler Bed","price":3699,"image":"/img/products/cloudnine-donut-cuddler-bed-1.svg","slug":"cloudnine-donut-cuddler-bed","stock":59},"p_blanket":{"id":"p_blanket","name":"PawPrint Waffle Fleece Blanket","price":1999,"image":"/img/products/pawprint-waffle-fleece-blanket-1.svg","slug":"pawprint-waffle-fleece-blanket","stock":100},"p_harness":{"id":"p_harness","name":"StrideSafe No-Pull Dog Harness","price":2699,"image":"/img/products/stridesafe-no-pull-harness-1.svg","slug":"stridesafe-no-pull-harness","stock":84},"p_travelbowl":{"id":"p_travelbowl","name":"RoamBowl Collapsible Travel Bowl (2-Pack)","price":1399,"image":"/img/products/roambowl-collapsible-travel-bowl-1.svg","slug":"roambowl-collapsible-travel-bowl","stock":160},"p_ledcollar":{"id":"p_ledcollar","name":"NightBeacon LED Collar Light","price":1199,"image":"/img/products/nightbeacon-led-collar-light-1.svg","slug":"nightbeacon-led-collar-light","stock":130}};</script>
+<script>window.__CHECKOUT=1;</script></main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-logo">🐾 MewMew</div>
+      <p class="footer-tag">Thoughtful gear for cats &amp; dogs</p>
+      <p class="footer-tag">Support: <a href="mailto:www.shikelang@gmail.com">www.shikelang@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <a href="/mewmew-store/shop">All products</a>
+      <a href="/mewmew-store/shop/toys/">Toys &amp; Play</a>
+      <a href="/mewmew-store/shop/grooming/">Grooming &amp; Cleanup</a>
+      <a href="/mewmew-store/shop/beds/">Beds &amp; Blankets</a>
+      <a href="/mewmew-store/shop/walk/">Walk &amp; Outdoor</a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="/mewmew-store/faq">FAQ</a>
+      <a href="/mewmew-store/track-order">Track your order</a>
+      <a href="/mewmew-store/pages/shipping-policy">Shipping Policy</a>
+      <a href="/mewmew-store/pages/return-refund-policy">Returns & Refunds</a>
+      <a href="/mewmew-store/contact">Contact us</a>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="/mewmew-store/pages/about">About us</a>
+      <a href="/mewmew-store/pages/privacy-policy">Privacy Policy</a>
+      <a href="/mewmew-store/pages/terms-of-service">Terms of Service</a>
+      <a href="/mewmew-store/pages/cookie-policy">Cookie Policy</a>
+    </div>
+    <div class="footer-sub">
+      <h4>Get 10% off your first order</h4>
+      <p class="footer-tag">Pet care tips & early access. No spam, unsubscribe anytime.</p>
+      <form id="subscribeForm" class="sub-form">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit">Join</button>
+      </form>
+      <p class="sub-msg" id="subMsg"></p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">© 2026 MewMew. All rights reserved.</div>
+</footer>
+<div class="cookie-banner" id="cookieBanner" hidden>
+  <p>We use cookies to run the store and — only if you agree — analytics/marketing pixels. See our <a href="/mewmew-store/pages/cookie-policy">Cookie Policy</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-ghost" id="cookieDecline">Decline</button>
+    <button class="btn btn-primary" id="cookieAccept">Accept</button>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+<div class="cart-overlay" id="cartOverlay" hidden></div>
+<aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartDrawerTitle" aria-hidden="true">
+  <div class="drawer-head">
+    <h2 id="cartDrawerTitle">Your cart</h2>
+    <button class="drawer-close" id="cartDrawerClose" type="button" aria-label="Close cart">×</button>
+  </div>
+  <div class="drawer-body">
+    <div class="drawer-shipping" id="drawerShipping" hidden>
+      <p id="drawerShippingText"></p>
+      <div class="drawer-progress" aria-hidden="true"><span id="drawerProgressBar"></span></div>
+    </div>
+    <div id="drawerItems" class="drawer-items"></div>
+  </div>
+  <div class="drawer-foot" id="drawerFoot" hidden>
+    <div class="drawer-total"><span>Total</span><strong id="drawerTotal">$0.00</strong></div>
+    <a class="btn btn-primary btn-block drawer-checkout" href="/mewmew-store/checkout">Checkout</a>
+    <p class="drawer-note">30-day happiness guarantee</p>
+  </div>
+</aside>
+<script src="/mewmew-store/js/store.js"></script>
+<script>
+window.__STATIC_DEMO=1;window.__PATH_PREFIX="/mewmew-store";
+document.addEventListener('DOMContentLoaded',function(){
+  var po=document.getElementById('placeOrder');
+  if(po){po.disabled=true;po.textContent="Demo — checkout needs server edition";}
+  Array.prototype.forEach.call(document.querySelectorAll('form[method="POST"], form[method="post"]'),function(f){
+    f.addEventListener('submit',function(e){e.preventDefault();alert("This is a static demo: browse products and pages, try the cart; checkout/forms need the server edition (see repo README).");});
+  });
+});
+</script></body>
+</html>

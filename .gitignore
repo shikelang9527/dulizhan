@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# runtime data — orders, settings (contains admin password hash / SMTP secrets).
+# The server re-seeds demo data automatically on first run.
+data/
+
+# local secrets & logs
+管理员密码.txt
+tools/*.log
+
+# large binaries (download via README instructions instead)
+tools/cloudflared.exe
+
+# OS noise
+Thumbs.db
+.DS_Store
+
+# explicit local secrets
+管理员密码.txt
+*.secret
+.env
+.claude/

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FFFFFF"/>
+
+  <g opacity=".92">
+    <g transform="rotate(-5 300 300)">
+      <rect x="150" y="200" width="300" height="220" rx="20" fill="#7FB69D"/>
+      <rect x="168" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/>
+      <g transform="translate(240,290) rotate(-12) scale(1.1)" fill="#FFFFFF">
+    <ellipse cx="0" cy="8" rx="14" ry="12"/>
+    <circle cx="-14" cy="-8" r="6"/><circle cx="-5" cy="-13" r="6"/>
+    <circle cx="5" cy="-13" r="6"/><circle cx="14" cy="-8" r="6"/>
+  </g>
+      <g transform="translate(340,350) rotate(14) scale(0.9)" fill="#FFFFFF">
+    <ellipse cx="0" cy="8" rx="14" ry="12"/>
+    <circle cx="-14" cy="-8" r="6"/><circle cx="-5" cy="-13" r="6"/>
+    <circle cx="5" cy="-13" r="6"/><circle cx="14" cy="-8" r="6"/>
+  </g>
+      <path d="M150,390 Q300,430 450,390 L450,420 L150,420 Z" fill="#6FA58C"/>
+    </g></g>
+  <line x1="110" y1="520" x2="490" y2="520" stroke="#3D3129" stroke-width="3"/>
+  <line x1="110" y1="508" x2="110" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <line x1="490" y1="508" x2="490" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <rect x="180" y="494" width="240" height="52" rx="26" fill="#3D3129"/>
+  <text x="300" y="521" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold" fill="#FFFFFF">100 × 80 cm</text>
+  <text x="300" y="76" text-anchor="middle" font-family="Arial" font-size="19" fill="#8C7D6F">39.4 × 31.5 in</text>
+</svg>

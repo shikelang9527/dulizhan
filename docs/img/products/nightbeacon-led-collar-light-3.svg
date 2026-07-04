@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FFFFFF"/>
+
+  <g opacity=".92">
+    <g>
+      <circle cx="300" cy="300" r="150" fill="#F2C94C" opacity=".14"/>
+      <circle cx="300" cy="300" r="105" fill="#F2C94C" opacity=".2"/>
+      <line x1="428" y1="300" x2="458" y2="300" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="390.5096679918781" y1="390.5096679918781" x2="411.7228714274745" y2="411.7228714274745" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="300" y1="428" x2="300" y2="458" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="209.49033200812192" y1="390.5096679918781" x2="188.2771285725255" y2="411.7228714274745" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="172" y1="300" x2="142" y2="300" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="209.4903320081219" y1="209.49033200812192" x2="188.27712857252547" y2="188.2771285725255" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="300" y1="172" x2="299.99999999999994" y2="142" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="390.5096679918781" y1="209.4903320081219" x2="411.7228714274745" y2="188.27712857252547" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/>
+      <rect x="248" y="244" width="104" height="120" rx="34" fill="#3D3129"/>
+      <circle cx="300" cy="292" r="34" fill="#F2C94C"/>
+      <circle cx="300" cy="292" r="20" fill="#FBE59B"/>
+      <rect x="272" y="352" width="56" height="16" rx="8" fill="#8C7D6F"/>
+      <path d="M258,238 q42,-26 84,0" stroke="#E8734A" stroke-width="12" fill="none" stroke-linecap="round"/>
+    </g></g>
+  <line x1="110" y1="520" x2="490" y2="520" stroke="#3D3129" stroke-width="3"/>
+  <line x1="110" y1="508" x2="110" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <line x1="490" y1="508" x2="490" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <rect x="180" y="494" width="240" height="52" rx="26" fill="#3D3129"/>
+  <text x="300" y="521" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold" fill="#FFFFFF">5 × 3 × 2 cm</text>
+  <text x="300" y="76" text-anchor="middle" font-family="Arial" font-size="19" fill="#8C7D6F">18 g · USB-C</text>
+</svg>

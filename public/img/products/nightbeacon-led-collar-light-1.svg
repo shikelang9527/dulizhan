@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FDF1EA"/>
+
+  <circle cx="300" cy="310" r="215" fill="#FFFFFF" opacity=".55"/>
+  
+    <g>
+      <circle cx="300" cy="300" r="150" fill="#F2C94C" opacity=".14"/>
+      <circle cx="300" cy="300" r="105" fill="#F2C94C" opacity=".2"/>
+      <line x1="428" y1="300" x2="458" y2="300" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="390.5096679918781" y1="390.5096679918781" x2="411.7228714274745" y2="411.7228714274745" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="300" y1="428" x2="300" y2="458" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="209.49033200812192" y1="390.5096679918781" x2="188.2771285725255" y2="411.7228714274745" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="172" y1="300" x2="142" y2="300" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="209.4903320081219" y1="209.49033200812192" x2="188.27712857252547" y2="188.2771285725255" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="300" y1="172" x2="299.99999999999994" y2="142" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/><line x1="390.5096679918781" y1="209.4903320081219" x2="411.7228714274745" y2="188.27712857252547" stroke="#F2C94C" stroke-width="7" stroke-linecap="round"/>
+      <rect x="248" y="244" width="104" height="120" rx="34" fill="#3D3129"/>
+      <circle cx="300" cy="292" r="34" fill="#F2C94C"/>
+      <circle cx="300" cy="292" r="20" fill="#FBE59B"/>
+      <rect x="272" y="352" width="56" height="16" rx="8" fill="#8C7D6F"/>
+      <path d="M258,238 q42,-26 84,0" stroke="#E8734A" stroke-width="12" fill="none" stroke-linecap="round"/>
+    </g>
+  <g transform="translate(80,90) rotate(-18) scale(0.8)" fill="#FFFFFF">
+    <ellipse cx="0" cy="8" rx="14" ry="12"/>
+    <circle cx="-14" cy="-8" r="6"/><circle cx="-5" cy="-13" r="6"/>
+    <circle cx="5" cy="-13" r="6"/><circle cx="14" cy="-8" r="6"/>
+  </g><g transform="translate(520,510) rotate(24) scale(0.7)" fill="#FFFFFF">
+    <ellipse cx="0" cy="8" rx="14" ry="12"/>
+    <circle cx="-14" cy="-8" r="6"/><circle cx="-5" cy="-13" r="6"/>
+    <circle cx="5" cy="-13" r="6"/><circle cx="14" cy="-8" r="6"/>
+  </g>
+</svg>

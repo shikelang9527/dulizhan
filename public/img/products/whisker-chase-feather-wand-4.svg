@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FFFFFF"/>
+
+  <clipPath id="zoom"><circle cx="300" cy="270" r="200"/></clipPath>
+  <circle cx="300" cy="270" r="200" fill="#FDF1EA"/>
+  <g clip-path="url(#zoom)"><g transform="translate(-90,-120) scale(1.35)">
+    <g transform="rotate(-24 300 300)">
+      <rect x="285" y="180" width="14" height="240" rx="7" fill="#C89B6D"/>
+      <rect x="285" y="180" width="14" height="50" rx="7" fill="#B0834F"/>
+    </g>
+    <path d="M240,215 Q160,170 150,260 Q148,300 185,320" stroke="#8C7D6F" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <g transform="translate(185,330)">
+      <path d="M0,0 Q-38,44 -8,96 Q6,60 6,30 Z" fill="#E8734A"/>
+      <path d="M4,4 Q40,50 12,100 Q0,62 -2,32 Z" fill="#F9B384"/>
+      <path d="M0,8 Q-4,70 2,104 Q8,66 4,28 Z" fill="#7FB69D"/>
+      <circle cx="2" cy="2" r="9" fill="#3D3129"/>
+    </g></g></g>
+  <circle cx="300" cy="270" r="200" fill="none" stroke="#E8734A" stroke-width="7"/>
+  <rect x="120" y="500" width="360" height="66" rx="18" fill="#EEF7F2"/>
+  <text x="300" y="528" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#3D3129">Natural feathers</text>
+  <text x="300" y="552" text-anchor="middle" font-family="Arial" font-size="16" fill="#8C7D6F">Beech wood · nylon cord</text>
+</svg>

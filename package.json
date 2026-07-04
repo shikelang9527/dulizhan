@@ -1,0 +1,14 @@
+{
+  "name": "mewmew-store",
+  "version": "1.0.0",
+  "description": "MewMew Co — pet supplies independent store (storefront + admin)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "images": "node scripts/generate-images.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16"
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FFFFFF"/>
+
+  <clipPath id="zoom"><circle cx="300" cy="270" r="200"/></clipPath>
+  <circle cx="300" cy="270" r="200" fill="#FDF1EA"/>
+  <g clip-path="url(#zoom)"><g transform="translate(-90,-120) scale(1.35)">
+    <g transform="rotate(-5 300 300)">
+      <rect x="150" y="200" width="300" height="220" rx="20" fill="#7FB69D"/>
+      <rect x="168" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="218" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="256" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="294" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="332" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="168" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="206" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="244" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="282" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="320" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="358" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/><rect x="396" y="370" width="30" height="30" rx="7" fill="#EEF7F2" opacity=".6"/>
+      <g transform="translate(240,290) rotate(-12) scale(1.1)" fill="#FFFFFF">
+    <ellipse cx="0" cy="8" rx="14" ry="12"/>
+    <circle cx="-14" cy="-8" r="6"/><circle cx="-5" cy="-13" r="6"/>
+    <circle cx="5" cy="-13" r="6"/><circle cx="14" cy="-8" r="6"/>
+  </g>
+      <g transform="translate(340,350) rotate(14) scale(0.9)" fill="#FFFFFF">
+    <ellipse cx="0" cy="8" rx="14" ry="12"/>
+    <circle cx="-14" cy="-8" r="6"/><circle cx="-5" cy="-13" r="6"/>
+    <circle cx="5" cy="-13" r="6"/><circle cx="14" cy="-8" r="6"/>
+  </g>
+      <path d="M150,390 Q300,430 450,390 L450,420 L150,420 Z" fill="#6FA58C"/>
+    </g></g></g>
+  <circle cx="300" cy="270" r="200" fill="none" stroke="#E8734A" stroke-width="7"/>
+  <rect x="120" y="500" width="360" height="66" rx="18" fill="#EEF7F2"/>
+  <text x="300" y="528" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#3D3129">Double-layer fleece</text>
+  <text x="300" y="552" text-anchor="middle" font-family="Arial" font-size="16" fill="#8C7D6F">Waffle weave</text>
+</svg>

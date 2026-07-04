@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — MewMew</title>
+<meta name="description" content="404">
+<link rel="icon" href="/mewmew-store/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/mewmew-store/css/store.css">
+<script>window.__LANG="en";</script>
+
+
+</head>
+<body>
+<div class="announce">Free US shipping on orders over $35 · 30-day returns · ⚠ Static demo</div>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="logo" href="/mewmew-store/">🐾 <span>MewMew</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="/mewmew-store/">Home</a>
+      <a href="/mewmew-store/shop">Shop</a>
+      <a href="/mewmew-store/faq">FAQ</a>
+      <a href="/mewmew-store/track-order">Track Order</a>
+      <a href="/mewmew-store/contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="lang-switch" href="/mewmew-store/zh/" title="切换到中文">中文</a>
+      <a class="cart-btn cart-drawer-toggle" href="/mewmew-store/cart" aria-label="Cart">
+        <span class="cart-icon" aria-hidden="true">🛒</span><span class="cart-count" id="cartCount">0</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="wrap section center">
+  <div class="confirm-emoji">🐾</div>
+  <h1 class="page-title">Page not found</h1>
+  <p class="muted">The page you're looking for wandered off like a cat at 3am.</p>
+  <p><a class="btn btn-primary" href="/mewmew-store/">Back to home</a></p>
+</section></main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-logo">🐾 MewMew</div>
+      <p class="footer-tag">Thoughtful gear for cats &amp; dogs</p>
+      <p class="footer-tag">Support: <a href="mailto:www.shikelang@gmail.com">www.shikelang@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <a href="/mewmew-store/shop">All products</a>
+      <a href="/mewmew-store/shop/toys/">Toys &amp; Play</a>
+      <a href="/mewmew-store/shop/grooming/">Grooming &amp; Cleanup</a>
+      <a href="/mewmew-store/shop/beds/">Beds &amp; Blankets</a>
+      <a href="/mewmew-store/shop/walk/">Walk &amp; Outdoor</a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="/mewmew-store/faq">FAQ</a>
+      <a href="/mewmew-store/track-order">Track your order</a>
+      <a href="/mewmew-store/pages/shipping-policy">Shipping Policy</a>
+      <a href="/mewmew-store/pages/return-refund-policy">Returns & Refunds</a>
+      <a href="/mewmew-store/contact">Contact us</a>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="/mewmew-store/pages/about">About us</a>
+      <a href="/mewmew-store/pages/privacy-policy">Privacy Policy</a>
+      <a href="/mewmew-store/pages/terms-of-service">Terms of Service</a>
+      <a href="/mewmew-store/pages/cookie-policy">Cookie Policy</a>
+    </div>
+    <div class="footer-sub">
+      <h4>Get 10% off your first order</h4>
+      <p class="footer-tag">Pet care tips & early access. No spam, unsubscribe anytime.</p>
+      <form id="subscribeForm" class="sub-form">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit">Join</button>
+      </form>
+      <p class="sub-msg" id="subMsg"></p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">© 2026 MewMew. All rights reserved.</div>
+</footer>
+<div class="cookie-banner" id="cookieBanner" hidden>
+  <p>We use cookies to run the store and — only if you agree — analytics/marketing pixels. See our <a href="/mewmew-store/pages/cookie-policy">Cookie Policy</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-ghost" id="cookieDecline">Decline</button>
+    <button class="btn btn-primary" id="cookieAccept">Accept</button>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+<div class="cart-overlay" id="cartOverlay" hidden></div>
+<aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartDrawerTitle" aria-hidden="true">
+  <div class="drawer-head">
+    <h2 id="cartDrawerTitle">Your cart</h2>
+    <button class="drawer-close" id="cartDrawerClose" type="button" aria-label="Close cart">×</button>
+  </div>
+  <div class="drawer-body">
+    <div class="drawer-shipping" id="drawerShipping" hidden>
+      <p id="drawerShippingText"></p>
+      <div class="drawer-progress" aria-hidden="true"><span id="drawerProgressBar"></span></div>
+    </div>
+    <div id="drawerItems" class="drawer-items"></div>
+  </div>
+  <div class="drawer-foot" id="drawerFoot" hidden>
+    <div class="drawer-total"><span>Total</span><strong id="drawerTotal">$0.00</strong></div>
+    <a class="btn btn-primary btn-block drawer-checkout" href="/mewmew-store/checkout">Checkout</a>
+    <p class="drawer-note">30-day happiness guarantee</p>
+  </div>
+</aside>
+<script src="/mewmew-store/js/store.js"></script>
+<script>
+window.__STATIC_DEMO=1;window.__PATH_PREFIX="/mewmew-store";
+document.addEventListener('DOMContentLoaded',function(){
+  var po=document.getElementById('placeOrder');
+  if(po){po.disabled=true;po.textContent="Demo — checkout needs server edition";}
+  Array.prototype.forEach.call(document.querySelectorAll('form[method="POST"], form[method="post"]'),function(f){
+    f.addEventListener('submit',function(e){e.preventDefault();alert("This is a static demo: browse products and pages, try the cart; checkout/forms need the server edition (see repo README).");});
+  });
+});
+</script></body>
+</html>
