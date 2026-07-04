@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ORIGIN = process.env.ORIGIN || 'http://localhost:4180';
-const BASE = (process.env.BASE || '/mewmew-store').replace(/\/$/, '');
+const BASE = (process.env.BASE || '/dulizhan').replace(/\/$/, '');
 const OUT = path.join(__dirname, '..', 'docs');
 
 const seed = require('../lib/seed-data');
