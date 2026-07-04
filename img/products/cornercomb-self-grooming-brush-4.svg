@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FFFFFF"/>
+
+  <clipPath id="zoom"><circle cx="300" cy="270" r="200"/></clipPath>
+  <circle cx="300" cy="270" r="200" fill="#FDF1EA"/>
+  <g clip-path="url(#zoom)"><g transform="translate(-90,-120) scale(1.35)">
+    <g>
+      <path d="M180,160 L180,460 L200,460 L200,160 Z" fill="#F5E6D3"/>
+      <path d="M200,160 L420,240 L420,380 L200,460 Z" fill="#EFE0CB"/>
+      <g transform="translate(210,310) rotate(-20)">
+        <path d="M0,-70 Q95,-40 95,40 Q95,58 78,52 Q20,30 0,70 Z" fill="#E8734A"/>
+        <path d="M18,-58 q26,4 44,22" stroke="#FDF1EA" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M30,-49 q26,4 44,22" stroke="#FDF1EA" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M42,-40 q26,4 44,22" stroke="#FDF1EA" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M54,-31 q26,4 44,22" stroke="#FDF1EA" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M66,-22 q26,4 44,22" stroke="#FDF1EA" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M78,-13 q26,4 44,22" stroke="#FDF1EA" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(360,420) scale(0.9)" fill="#8C7D6F">
+    <circle cx="0" cy="0" r="34"/>
+    <path d="M-30,-18 L-38,-48 L-10,-30 Z"/><path d="M30,-18 L38,-48 L10,-30 Z"/>
+    <ellipse cx="0" cy="60" rx="42" ry="34"/>
+    <path d="M38,72 Q78,66 74,30 Q72,20 64,22 Q68,54 34,58 Z"/>
+  </g>
+    </g></g></g>
+  <circle cx="300" cy="270" r="200" fill="none" stroke="#E8734A" stroke-width="7"/>
+  <rect x="120" y="500" width="360" height="66" rx="18" fill="#EEF7F2"/>
+  <text x="300" y="528" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#3D3129">TPR soft bristles</text>
+  <text x="300" y="552" text-anchor="middle" font-family="Arial" font-size="16" fill="#8C7D6F">Adhesive or screw mount</text>
+</svg>

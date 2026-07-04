@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#FFFFFF"/>
+
+  <g opacity=".92">
+    <g transform="rotate(-18 300 300)">
+      <rect x="180" y="200" width="150" height="180" rx="34" fill="#E8734A"/>
+      <rect x="196" y="216" width="118" height="148" rx="24" fill="#F9B384"/>
+      <rect x="212" y="232" width="86" height="116" rx="16" fill="#FDF1EA"/>
+      <rect x="330" y="266" width="140" height="48" rx="24" fill="#3D3129"/>
+      <rect x="440" y="272" width="36" height="36" rx="18" fill="#8C7D6F"/>
+      <path d="M226,250 q30,-14 58,0" stroke="#B8AFA3" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M226,290 q30,-14 58,0" stroke="#B8AFA3" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M226,330 q30,-14 58,0" stroke="#B8AFA3" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </g></g>
+  <line x1="110" y1="520" x2="490" y2="520" stroke="#3D3129" stroke-width="3"/>
+  <line x1="110" y1="508" x2="110" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <line x1="490" y1="508" x2="490" y2="532" stroke="#3D3129" stroke-width="3"/>
+  <rect x="180" y="494" width="240" height="52" rx="26" fill="#3D3129"/>
+  <text x="300" y="521" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold" fill="#FFFFFF">25 cm / 9.8 in</text>
+  <text x="300" y="76" text-anchor="middle" font-family="Arial" font-size="19" fill="#8C7D6F">total length</text>
+</svg>
